@@ -1,0 +1,11 @@
+﻿@model Sitecore.AjaxAnalytics.Models.SampleFormModel
+
+<div>
+    <h2>SampleLogger</h2>
+    <form action="/api/cxa/AjaxAnalytics/RegisterInteraction" id="sampleAnalytics" method="post">
+        <input id="goalId" name="goalId" type="text" placeholder="{79AFA05E-4E87-4339-9302-3DED47B44F08}">
+        <button type="submit" class="submit-goal" id="submitGoal">Send to Tracker</button>
+    </form>
+</div>
+
+<script src="~/Scripts/AjaxAnalytics/advancedAnalytics.js"></script>
