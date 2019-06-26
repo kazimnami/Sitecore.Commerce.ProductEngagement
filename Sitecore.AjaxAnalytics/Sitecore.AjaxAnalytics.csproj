@@ -111,9 +111,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\AjaxAnalytics\SampleLogger.cshtml" />
     <None Include="Properties\PublishProfiles\Temp.pubxml" />
-    <None Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

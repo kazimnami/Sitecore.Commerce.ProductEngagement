@@ -9,16 +9,10 @@ namespace Sitecore.AjaxAnalytics.Controllers
 {
     public class AjaxAnalyticsController : Controller
     {
-        [HttpGet]
-        public ActionResult SampleLogger()
-        {
-            return View("/Views/AjaxAnalytics/SampleLogger.cshtml", new SampleFormModel());
-        }
-
         [AllowAnonymous]
         [HttpPost]
         [OutputCache(Location = System.Web.UI.OutputCacheLocation.None, NoStore = true)]
-        public ActionResult RegisterInteraction(string goalId, string productId)
+        public ActionResult RegisterProductGoal(string goalId, string productId)
         {
             using (var client = SitecoreXConnectClientConfiguration.GetClient())
             {

@@ -1,19 +1,7 @@
-﻿AjaxAnalytics = {
+﻿AjaxAnalyticsGTM = {
     Consts: {
         ERROR: "Error",
-        AnalyticsAPIRoute: "/api/cxa/AjaxAnalytics/RegisterInteraction",
-        GoalId: "{79AFA05E-4E87-4339-9302-3DED47B44F08}"
-    },
-
-    Setup: function() {
-        var _this = this;
-        document.getElementById("submitGoal").addEventListener('click', function (event) {      
-            event.preventDefault();
-            
-            var productId = _this.GetProductIdFromCanonicalUrl();
-            _this.TriggerGoal(productId, _this.Consts.GoalId);
-        
-        }, false);
+        AnalyticsAPIRoute: "/api/cxa/AjaxAnalytics/RegisterProductGoal"
     },
 
     GetProductIdFromCanonicalUrl: function() {
@@ -21,18 +9,15 @@
         var headLinks = document.head.getElementsByTagName("link");
         for (var i = 0; i < headLinks.length; i ++) {
             if (headLinks[i].getAttribute("rel") === "canonical") {
-                return _this.StripProductIdFromURL(headLinks[i].getAttribute("href"));
+                return href.substring(href.lastIndexOf('/') + 1);
             }
         }
         return _this.Consts.ERROR;
     },
 
-    StripProductIdFromURL: function(href) {
-        return href.substring(href.lastIndexOf('/') + 1);
-    },
-
-    TriggerGoal: function(productId, goalId) {
+    TriggerProductGoal: function(goalId) {
         var _this = this;
+        var productId = _this.GetProductIdFromCanonicalUrl();
         
         var formData = new FormData();
         formData.append("goalId", goalId);
@@ -44,4 +29,4 @@
     }
 };
 
-AjaxAnalytics.Setup();
+//AjaxAnalyticsGTM.TriggerProductGoal("{EB4C21DB-DBFB-4E4E-83E0-B616AB8C54FF}");
