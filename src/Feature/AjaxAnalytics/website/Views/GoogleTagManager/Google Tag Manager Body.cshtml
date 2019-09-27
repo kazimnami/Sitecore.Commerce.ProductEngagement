@@ -1,0 +1,28 @@
+﻿@using Sitecore.XA.Foundation.Presentation
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model SampleEngagement.Feature.AjaxAnalytics.Models.GoogleTagManagerModel
+
+@{
+    Layout = Sitecore.Configuration.Settings.GetSetting("XA.Foundation.Presentation.MetaComponentLayoutPath", "../SXA/Meta Component Layout.cshtml");
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.Key))
+{
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=@Model.Key"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+}
+else if (!Sitecore.Context.PageMode.IsNormal)
+{
+    var isDragging = Sitecore.Context.PageDesigner.IsDesigning && Sitecore.Context.Item.InheritsFrom(Templates.MetadataPartialDesign.ID);
+    var warning = "Google Tag Manager Key is missing - component won't render";
+    if (isDragging)
+    {
+        @Html.Raw(warning)
+    }
+    else
+    {
+        <script>/* @Html.Raw(warning) */</script>
+    }
+}

@@ -1,0 +1,31 @@
+﻿@using Sitecore.XA.Foundation.Presentation
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model SampleEngagement.Feature.AjaxAnalytics.Models.GoogleTagManagerModel
+
+@{
+    Layout = Sitecore.Configuration.Settings.GetSetting("XA.Foundation.Presentation.MetaComponentLayoutPath", "../SXA/Meta Component Layout.cshtml");
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.Key))
+{
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','@Model.Key');</script>
+<!-- End Google Tag Manager --> 
+}
+else if (!Sitecore.Context.PageMode.IsNormal)
+{
+    var isDragging = Sitecore.Context.PageDesigner.IsDesigning && Sitecore.Context.Item.InheritsFrom(Templates.MetadataPartialDesign.ID);
+    var warning = "Google Tag Manager Key is missing - component won't render";
+    if (isDragging)
+    {
+        @Html.Raw(warning)
+    }
+    else
+    {
+        <script>/* @Html.Raw(warning) */</script>
+    }
+}
