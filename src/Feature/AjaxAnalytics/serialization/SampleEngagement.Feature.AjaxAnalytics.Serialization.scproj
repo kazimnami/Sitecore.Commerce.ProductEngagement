@@ -26,7 +26,7 @@
     <DisableFileDeployment>False</DisableFileDeployment>
     <LightningDeployMode>False</LightningDeployMode>
     <ConnectorTimeoutSeconds>120</ConnectorTimeoutSeconds>
-    <SitecoreAccessGuid>8b97da85-7567-49f5-85b7-811504eab486</SitecoreAccessGuid>
+    <SitecoreAccessGuid>6536a581-166e-4363-81a6-295fb6eadcce</SitecoreAccessGuid>
     <SitecoreDeployFolder>C:\inetpub\wwwroot\habitathome.dev.local</SitecoreDeployFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">

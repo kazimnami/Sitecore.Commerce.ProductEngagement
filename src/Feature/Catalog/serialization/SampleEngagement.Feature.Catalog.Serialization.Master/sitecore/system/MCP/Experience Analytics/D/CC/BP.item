@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {21BD1FCC-09E6-43C4-BAFE-E7A1088FCFEC}
+database: master
+path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/ConnectCustom/By Product
+parent: {B3B82EBB-B637-43B1-8B51-0C1E8663146D}
+name: By Product
+master: {00000000-0000-0000-0000-000000000000}
+template: {B0BD1136-7F76-426C-8EAE-4FB4998B4D2C}
+templatekey: FlexibleDimension
+created: 20191004T204600Z
+
+----field----
+field: {632E369B-3C22-4DD4-B6E9-0C6648A97EC3}
+name: MetricType
+key: metrictype
+content-length: 14
+
+ProductMetrics
+----field----
+field: {572B00C2-3D74-4D4F-976F-DCAE76297A85}
+name: Metrics
+key: metrics
+content-length: 740
+
+{D0F260A7-4839-4C4D-94AA-745DC8BCDF13}|{84C79DEA-BF76-47B0-A9A8-25B793DB4371}|{5D1B1338-8D13-4DAB-A5CF-D626541D587C}|{F742B2C5-78BF-4E7D-80A0-90DF187A6029}|{2041A6A5-4791-4A27-BF88-C185AB16DA85}|{DF041885-2C4E-4FEF-BC64-03D8B210F393}|{452E2737-75A1-4D1A-AC80-46928CC033EB}|{C64E866F-684C-4D58-832E-7E9E0F9D9BA3}|{D9071B27-9B3A-4A79-A73F-44ED51ACC9D2}|{E2026AE2-AFC4-4E59-9AB2-9B1128DAC3F1}|{448214D7-F91F-42BF-A15C-A2C2645C42F7}|{6505EA17-E36D-4DCD-9337-943E2E47B212}|{056EF1F1-13F4-45EF-B807-B544C152495F}|{D78CE54C-272E-4296-845F-BA5943E22691}|{9FF5E560-65F0-49AD-93E3-10FDBB717448}|{56920180-C393-4C71-82F2-BC65C4BE7925}|{6BE51ECC-FC63-4C96-A8EB-AAE0CBC59584}|{0C27B583-799B-4728-A700-F3C069830D2C}|{5DC58DE8-E219-4BF0-8C67-D1DF8BC55095}
+----version----
+language: en
+version: 1
+revision: 9b387325-d568-4829-8cba-a537b8c316ae
+
+----field----
+field: {A6302F86-E82B-4BDA-AB63-639395E1B614}
+name: Name
+key: name
+content-length: 10
+
+By Product
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191004T204600Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b387325-d568-4829-8cba-a537b8c316ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20191004T210157Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

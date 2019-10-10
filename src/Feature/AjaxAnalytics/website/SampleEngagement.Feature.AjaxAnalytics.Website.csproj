@@ -138,7 +138,6 @@
     <Content Include="Views\GoogleTagManager\Google Tag Manager Body.cshtml" />
     <Content Include="App_Config\Include\Feature\Feature.AjaxAnalytics.config" />
     <None Include="Properties\PublishProfiles\local debug.pubxml" />
-    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\GoogleTagManagerController.cs" />
@@ -150,12 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Analytics\sampleengagement-feature-ajaxanalytics.js" />
