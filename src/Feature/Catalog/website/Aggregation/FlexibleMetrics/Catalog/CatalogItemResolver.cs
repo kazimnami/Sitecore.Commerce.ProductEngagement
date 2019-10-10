@@ -21,11 +21,11 @@ namespace SampleEngagement.Feature.Catalog.Aggregation.FlexibleMetrics.Catalog
                 .OfType<T>()
                 .GroupBy(pageEvent => pageEvent.ItemId)
                 .Select(pageEventOccurences => new VisitGroupMeasurement<T>(
-                    new VisitGroup(ConvertItemIdToCatalogueItemId(context, pageEventOccurences.Key)), 
+                    new VisitGroup(ConstructDimensionKey(context, pageEventOccurences.Key)), 
                     pageEventOccurences));
         }
 
-        private string ConvertItemIdToCatalogueItemId(IInteractionAggregationContext context, Guid itemId)
+        private string ConstructDimensionKey(IInteractionAggregationContext context, Guid itemId)
         {
             var itemPageEventList = context.Interaction.Events.OfType<PageViewEvent>().Where(pageEvent => pageEvent.ItemId.Equals(itemId)).ToList();
             var catalogItemId = itemPageEventList.First().Url.Split('/').Last().Split('?').First();
