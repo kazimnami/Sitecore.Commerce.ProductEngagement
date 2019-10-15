@@ -2,7 +2,7 @@
 version: 1
 id: {F170164B-2E10-43BA-85D2-191AFD0FB144}
 database: master
-path: /sitecore/layout/Renderings/Feature/AjaxAnalytics/Google Tag Manager Body
+path: /sitecore/layout/Renderings/Feature/Analytics/Google Tag Manager Body
 parent: {5ADFE004-FE40-4B2D-8399-F4C452C51141}
 name: Google Tag Manager Body
 master: {00000000-0000-0000-0000-000000000000}

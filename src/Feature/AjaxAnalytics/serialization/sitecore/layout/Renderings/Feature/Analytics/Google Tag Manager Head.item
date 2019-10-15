@@ -2,7 +2,7 @@
 version: 1
 id: {EEECC3B0-76BC-4A41-8903-80F534CC187D}
 database: master
-path: /sitecore/layout/Renderings/Feature/AjaxAnalytics/Google Tag Manager Head
+path: /sitecore/layout/Renderings/Feature/Analytics/Google Tag Manager Head
 parent: {5ADFE004-FE40-4B2D-8399-F4C452C51141}
 name: Google Tag Manager Head
 master: {00000000-0000-0000-0000-000000000000}
