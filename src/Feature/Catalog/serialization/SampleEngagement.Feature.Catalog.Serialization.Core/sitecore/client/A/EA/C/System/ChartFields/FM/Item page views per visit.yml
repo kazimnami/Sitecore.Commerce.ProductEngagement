@@ -1,0 +1,175 @@
+---
+ID: "9ff5e560-65f0-49ad-93e3-10fdbb717448"
+Parent: "6f848066-3ab1-4b50-974d-eca4d36622c6"
+Template: "1030dc20-da46-4f7a-8392-59c12b753e4c"
+Path: /sitecore/client/Applications/ExperienceAnalytics/Common/System/ChartFields/FlexibleMetrics/Item page views per visit
+DB: core
+SharedFields:
+- ID: "c834c289-60e9-40f7-9deb-0cc5b914a348"
+  Hint: Expression
+  Value: ItemPageViews/Visits
+- ID: "29b1c584-0f87-49a2-be09-ea4fb0a0abf1"
+  Hint: DataField
+  Value: avgVisitItemPageViews
+- ID: "11e2ea30-aab3-45a5-a279-21370b0f006c"
+  Hint: MultiAxisChartPosition
+  Value: Left
+- ID: "1349c42b-35a9-418f-bed5-693cf8913467"
+  Hint: NumberScale
+  Value: "{2E47DEBE-06C0-47D0-91B4-F1BF58F46348}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2300
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b4929234-6dcc-4adb-827e-cdcdc128b8af"
+      Hint: HeaderText
+      Value: Sidevisninger
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: Sidevisninger
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T130241Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cff7460b-2666-4766-b46e-455cc85f67ee"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190328T130241Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b4929234-6dcc-4adb-827e-cdcdc128b8af"
+      Hint: HeaderText
+      Value: Seitenaufrufe
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: Seitenaufrufe
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T131724Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27a8d2c3-d8a3-4f4e-9198-a5966e03eca9"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190328T131724Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b4929234-6dcc-4adb-827e-cdcdc128b8af"
+      Hint: HeaderText
+      Value: Item page views per visit
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140603T105156
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc8eb8b6-fb99-42e5-848e-022b752beae1"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191004T200419Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b4929234-6dcc-4adb-827e-cdcdc128b8af"
+      Hint: HeaderText
+      Value: 訪問毎のページ ビュー
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: 訪問毎のページ ビュー
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T132957Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98e62d02-69c6-4c3c-9a81-3567f956910f"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190328T132957Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b4929234-6dcc-4adb-827e-cdcdc128b8af"
+      Hint: HeaderText
+      Value: 平均访问页面浏览量
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: 平均访问页面浏览量
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T134030Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5824731-53f6-4d93-a94d-a56c3a803aa2"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190328T134030Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin

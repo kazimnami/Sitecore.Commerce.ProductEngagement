@@ -5,17 +5,15 @@
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4c371168-7e08-432f-a57c-65684fb0609e</ProjectGuid>
-    <SourceWebPhysicalPath>
-    </SourceWebPhysicalPath>
-    <SourceWebProject>
-    </SourceWebProject>
-    <SourceWebVirtualPath>
-    </SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
     <AssemblyName>SampleEngagement.Feature.Catalog.Serialization.Master</AssemblyName>
     <Name>SampleEngagement.Feature.Catalog.Serialization.Master</Name>
     <RootNamespace>SampleEngagement.Feature.Catalog.Serialization.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SerializationFormat>YML</SerializationFormat>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,13 +41,13 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <SitecoreItem Include="sitecore\system.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Marketing Control Panel</SitecoreName></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Dimensions</SitecoreName></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><SitecoreName>ConnectCustom</SitecoreName></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC\BP.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment><SitecoreName>By Product</SitecoreName></SitecoreItem>
-    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC\BP\All Products.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\system.yml"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Marketing Control Panel</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Dimensions</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC.yml"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><SitecoreName>ConnectCustom</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC\BP.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment><SitecoreName>By Product</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\system\MCP\Experience Analytics\D\CC\BP\All Products.yml"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>

@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Sol
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		nuget.config = nuget.config
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SampleEngagement.Feature.AjaxAnalytics.Serialization", "src\Feature\AjaxAnalytics\serialization\SampleEngagement.Feature.AjaxAnalytics.Serialization.scproj", "{8551D23B-6649-456A-A92D-71BA5BEF4BED}"
@@ -75,7 +76,7 @@ Global
 		{4C371168-7E08-432F-A57C-65684FB0609E} = {C723A651-83F8-4F9C-BA73-98EFB1710ABC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AABCF94E-B782-4F22-85CF-7637E572CFE8}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {AABCF94E-B782-4F22-85CF-7637E572CFE8}
 	EndGlobalSection
 EndGlobal

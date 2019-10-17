@@ -1,0 +1,24 @@
+---
+ID: "b3b82ebb-b637-43b1-8b51-0c1e8663146d"
+Parent: "fbf255c0-72a2-4e76-a83d-633b852d82e7"
+Template: "b9ba5875-36c0-48d1-8b82-6df152b7aaa6"
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/ConnectCustom
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191004T204515Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34ee8e9a-4f74-422e-b913-c2876ccbae9b"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191004T204515Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin

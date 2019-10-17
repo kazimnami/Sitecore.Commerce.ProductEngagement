@@ -1,0 +1,40 @@
+---
+ID: "1911292b-4faa-41ce-85c2-8d5ea8fb6d2a"
+Parent: "4d3b3a29-b8ad-402b-a57f-0c44fb7b1fef"
+Template: "292ccfcd-7790-4692-856b-76014b8038e7"
+Path: /sitecore/system/Settings/Feature/AjaxAnalytics/Analytics Google Tag Manager Site Setup
+DB: master
+SharedFields:
+- ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
+  Hint: Dependencies
+  Value: "{BDF83718-907A-435B-B1BA-64139E07983F}"
+- ID: "11488836-d40f-40d4-beb4-1d31da7b1470"
+  Hint: IncludeByDefault
+  Value: 1
+- ID: "06d2c562-9229-4779-8807-e2a5fd2990d4"
+  Hint: IsSystemModule
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: "Analytics - Google Tag Manager"
+    - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+      Hint: __Display name
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171017T123630Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f2bb4fc-5cf5-466d-894a-8a7830e95d42"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190927T014621Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
