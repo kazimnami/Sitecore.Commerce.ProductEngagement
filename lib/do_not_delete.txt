@@ -1,0 +1,3 @@
+This folder is a temporary solution becuase the Sitecore.Commerce.ExperienceAnalytics is not in nuget.
+
+Copy the dll from your /bin dir to this libs dir to allow the solution to build.
