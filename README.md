@@ -11,8 +11,12 @@ You can then build and deploy the two web projects to your wwwroot folder.
 Item serialistion is handled via TDS and is using YAML format.
 
 # Configuration
-Note these instructions are based on Habitat Home, to install into a different site they may vary.
-* Add the AjaxAnalytics Extension theme to your site theme.
-* Include the _GTM-Head_ meta rendering into the _head_ placeholder of the _Global Metadata_ Partial Design
-* Include the _GTM-Body_ meta rendering into the _body-top_ placeholder of the _Global Metadata_ Partial Design
-* Use GTM to assign events to the elements on the site.
+You will then need to configure this for your site, by including the Javascript elements onto your page. The instructions below will demonstrate how to achieve this with Habiatat Home, but the item locations for your site will be different.
+* Add the AjaxAnalytics Extension theme located at _/sitecore/media library/Extension Themes/AjaxAnalytics Extension_ to your site theme (in HabitatHome.Commerce this is located at _/sitecore/media library/Themes/Habitat SXA Sites/Habitat Home Store_).
+* Update your sites available renderings to enable the GTM renderings. (In HabitatHome update the _/sitecore/content/Habitat SXA Sites/Global/Presentation/Available Renderings/Analytics_ item's _renderings_ fields to referance both _/sitecore/layout/Renderings/Feature/Analytics/Google Tag Manager Head_ & _/sitecore/layout/Renderings/Feature/Analytics/Google Tag Manager Body_ to enable this for all sites)
+* Open your MetaData Partial Design (In HabitatHome we're going to update the global meta data to include the functionality on all sites, this is located at _/sitecore/content/Habitat SXA Sites/Global/Presentation/Partial Designs/Global Metadata_) in the Experience Editor.
+* Add the Google Tag Manager Head rendering (located under _Analytics_ in the toolbox) to the _head_ placeholder. Enter your Google Tag Manager Container Id into the Key field on the Rendering parameters.
+* Add the Google Tag Manager Body rendering (located under _Analytics_ in the toolbox) to the _body_ placeholder. Enter your Google Tag Manager Container Id into the Key field on the Rendering parameters.
+* Save your changes to the Meta Partial Rendering, then publish your site.
+
+You're now ready to start triggering events via GTM!
