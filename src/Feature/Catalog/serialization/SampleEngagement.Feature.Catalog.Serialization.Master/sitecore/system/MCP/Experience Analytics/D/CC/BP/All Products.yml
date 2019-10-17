@@ -1,0 +1,37 @@
+---
+ID: "6a657ef2-648f-4bed-a4cf-62ba550e39af"
+Parent: "21bd1fcc-09e6-43c4-bafe-e7a1088fcfec"
+Template: "a87ee256-044e-450d-a73c-9a464aa773ef"
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/ConnectCustom/By Product/All Products
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{933DFBF3-3D97-4FF7-9F5E-74579BD1A219}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "9b0413da-641e-46d9-8a2a-d8598479952c"
+      Hint: Name
+      Value: All Products
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191004T210738Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8bd566c1-b119-486b-8208-d2b48e54dd67"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191004T210830Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}"
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
